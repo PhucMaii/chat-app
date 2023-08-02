@@ -41,6 +41,9 @@ export default function AddRoomModal() {
                 <Form.Item label="Mo ta: " name='description'>
                     <Input.TextArea placeholder="Nhap mo ta..."/>
                 </Form.Item>
+                <Form.Item label="Image " name='avatar'>
+                    <Input placeholder="Enter URL..."/>
+                </Form.Item>
             </Form>
         </ModalStyled>
     </div>

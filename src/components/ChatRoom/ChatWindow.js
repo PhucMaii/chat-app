@@ -130,11 +130,6 @@ export default function ChatWindow() {
                         </HeaderStyled>
                         <ContentStyled>
                             <MessageListStyled>
-                                {/* <Message text="Test" photoURL={null} displayName="Tung" createdAt={123123123123} />
-                                <Message text="Test" photoURL={null} displayName="Tung" createdAt={123123123123} />
-                                <Message text="Test" photoURL={null} displayName="Tung" createdAt={123123123123} />
-                                <Message text="Test" photoURL={null} displayName="Tung" createdAt={123123123123} />
-                                <Message text="Test" photoURL={null} displayName="Tung" createdAt={123123123123} /> */}
                                 {
                                     messages.map((mess) => {
                                         return (
